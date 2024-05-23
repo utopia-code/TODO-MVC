@@ -119,8 +119,11 @@ li span:focus {
   display: block;
 }
 
-.link-github img {
-  max-width: 100%;
+.link-github .icon-github {
+  background-image: url(/3524c849ab38de4be923.png);
+  background-size: cover;
+  width: 36px;
+  height: 36px;
 }
 
 /*# sourceMappingURL=styles.css.map*/

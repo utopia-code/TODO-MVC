@@ -119,6 +119,9 @@ li span:focus {
   display: block;
 }
 
-.link-github img {
-  max-width: 100%;
+.link-github .icon-github {
+  background-image: url(assets/github-mark.png);
+  background-size: cover;
+  width: 36px;
+  height: 36px;
 }
