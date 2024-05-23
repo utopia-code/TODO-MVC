@@ -88,3 +88,37 @@ li span:focus {
   border: 2px solid #007bff;
   background: rgba(179, 207, 255, 0.52)
 }
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+.link-github {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .7);
+  transition: background-color .15s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.link-github:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.link-github a {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.link-github img {
+  max-width: 100%;
+}
